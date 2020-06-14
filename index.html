@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a80f15e67c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="dog.ico">
+
+  <!--Always put your styles.css first, because in a case of
+  overwriting, the browser will obey the last one, wich means,
+  your styles.css overcame the bootstrap stylization-->
+
+
+
+
+
+</head>
+
+<body>
+
+  <section id="title">
+
+  <div class="container-fluid">
+
+
+    <!-- Nav Bar -->
+
+    <nav class =" navbar navbar-expand-md navbar-light">
+
+        <a class= "navbar-brand" href="">M&L</a>
+
+          <button class="navbar-toggler btn-lg" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class ="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class ="navbar-nav  ml-auto">
+            <li class = "nav-item">
+                <a class = "nav-link" href = ""> <span class="spanwhite">Home</span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="spanwhite">Profile </span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"> Favorites</a>
+                <a class="dropdown-item" href="#footer">Get in Contact!</a> <!--Will send me to the footer ID! thats one of reasons of using ids.-->
+
+            </div>
+          </li>
+
+
+        </ul>
+        </div>
+    </nav>
+
+
+    <!-- Title -->
+
+    <div class="row">
+
+    <div class="col-lg-6 hideme-father"> <!--Put the complete form! Col-6-lg! the LG makes even more responsive-->
+      <h1><strong>Meet new and interesting dogs nearby.</strong></h1>
+
+      <button type="button" class="btn btn-dark download-button btn-lg"> <i class="fab fa-apple"></i> Download</button>
+
+      <button type="button" class="btn btn-light download-button"> <i class="fab fa-google-play"></i> Download</button>
+
+    </div>
+
+
+    <div class="col-lg-6 hideme-father">
+
+      <div class="rotated-div-30 hideme"><img src="images/iphone6.png" alt="iphone-mockup"></div>
+
+    </div>
+
+    </div>
+
+  </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+  <div class="row">
+
+    <div class="col-lg-4 col-md-12 col-sm-12 givemesomespace" >
+
+
+      <i class="fas fa-check-circle iconeinterativo fa-4x"></i>
+      <h3>Easy to use.</h3>
+      <p>So easy to use, even your dog could do it.</p>
+
+    </div>
+    <div class="col-lg-4 col-md-12 col-sm-12 givemesomespace" >
+
+      <i class="fas fa-bullseye iconeinterativo fa-4x"></i>
+      <h3>Elite Clientele</h3>
+      <p>We have all the dogs, the greatest dogs.</p>
+
+    </div>
+    <div class="col-lg-4 col-md-12 col-sm-12 givemesomespace" >
+
+      <i class="fas fa-heart iconeinterativo fa-4x"></i>
+      <h3>Guaranteed to work.</h3>
+      <p>Find the love of your dog's life or your money back.</p>
+
+    </div>
+  </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+
+
+  <div id="Testimonials-carousel" class="carousel slide" data-ride="carousel" data-interval = "5000" >
+
+    <div class="carousel-inner"> <!--Here comes the slides:-->
+
+      <div class="carousel-item active"> <!--First Slide-->
+
+        <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+        <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+        <em>Pebbles, New York</em>
+
+      </div>
+
+
+      <div class="carousel-item" > <!--Second Slide-->
+
+        <h2>My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+        <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+        <em>Beverly, Illinois</em>
+
+      </div>
+    </div>
+
+
+    <a class="carousel-control-prev" href="#Testimonials-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span> <!--It will read to handcap peaple-->
+    </a>
+    <a class="carousel-control-next" href="#Testimonials-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>
+
+
+
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-image" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-image" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-image" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-image" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing Table -->
+  <!--Cards are containers that looks
+  like a card, in bootstrap-->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+
+    <div class="row givemesomespace"> <!--Makes everything fits inside one page, side by side-->
+
+    <div class = "col-lg-4 col-md-6 col-sm-12"> <!--First pricing plan-->
+    <div class="card givemesomespace">
+
+        <div class="card-header">
+          <h3>Chihuahua</h3>
+        </div>
+        <div class="card-body">
+          <h2>Free</h2>
+          <p>5 Matches Per Day</p>
+          <p>10 Messages Per Day</p>
+          <p>Unlimited App Usage</p>
+          <button type="button" class="btn btn-outline-secondary btn-lg" style="background-color: none">Sign Up</button>
+        </div>
+
+    </div>
+    </div>
+
+    <div class = " col-lg-4 col-md-6 col-sm-12"> <!--Second pricing plan-->
+    <div class="card">
+        <div class="card-header">
+          <h3>Labrador</h3>
+        </div>
+        <div class="card-body">
+          <h2>$49 / mo</h2>
+          <p>Unlimited Matches</p>
+          <p>Unlimited Messages</p>
+          <p>Unlimited App Usage</p>
+
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary btn-lg">Sign Up</button>
+          </div>
+        </div>
+
+    </div>
+    </div>
+
+    <div class = "col-lg-4 col-md-12 col-sm-12"> <!--Third pricing plan-->
+    <div class="card">
+
+        <div class="card-header">
+          <h3>Mastiff</h3>
+        </div>
+        <div class="card-body">
+          <h2>$99 / mo</h2>
+          <p>Pirority Listing</p>
+          <p>Unlimited Matches</p>
+          <p>Unlimited Messages</p>
+          <p>Unlimited App Usage</p>
+          <button type="button" class="btn btn-primary btn-lg">Sign Up</button>
+        </div>
+
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="givemesomespace">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark download-button"> <i class="fab fa-apple"></i> Download</button>
+
+    <button type="button" class="btn btn-light download-button"> <i class="fab fa-google-play"></i> Download</button>
+
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+
+    <i class="fab fa-instagram fa-2x"></i>
+    <i class="fab fa-facebook-f fa-2x  givemesomespace" style="padding-bottom: 0"></i>
+    <i class="far fa-envelope fa-2x"></i>
+
+    <p class="givemesomespace" style="padding-bottom: 10px">© Copyright 2018 TinDog</p>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
